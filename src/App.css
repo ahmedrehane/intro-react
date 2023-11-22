@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border: solid;
+
+}
+.card{
+  background-color: blue;
+  margin: 10px;
+}
+.card h1{
+  height: 20vh;
+
+}
+.card1 h1{
+  height: 20vh;
+}
+.card2 h1{
+  height: 20vh;
+}
+.card1{
+  margin: 10px;
+  background-color: green;
+
+}
+.card2{
+  margin: 10px;
+  background-color: blueviolet;
+}
+.card h2{
+  text-align: center;
+}
+.card1 h2{
+  text-align: center;
+}
+.card2 h2{
+  text-align: center;
+}
+
+
+
